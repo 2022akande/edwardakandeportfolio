@@ -1,0 +1,159 @@
+body, html {
+  margin: 0
+}
+
+body {
+  background-color: #111111;
+}
+
+.nav-bar {
+	background-color: #323334;
+	overflow: hidden;
+}
+
+.nav-bar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 108px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Helvetica;
+}
+
+.nav-bar a:hover {
+  background-color: #0027FF;
+  color: #f2f2f2;
+}
+
+.text {
+  font-family: Helvetica;
+  text-align: center;
+  float: center;
+  color: #FFFFFF
+}
+
+.footer{
+  font-family: Helvectica;
+  text-align: center;
+  background-color: #000000;
+}
+
+h1 {
+  font-family: Helvetica;
+  text-align: center;
+  float: center;
+  color: #FFFFFF	
+}
+
+.contact-form {
+	float: center;
+	width: 500px;
+    margin: 0 auto;
+}
+
+.button {
+  background-color: #0027FF;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: Helvetica;
+}
+
+.contact-form {
+  font-family: Helvetica;
+  text-align: center;
+  float: center;
+  color: #FFFFFF
+}
+
+ul{
+  float: center;
+  text-align: center;
+}
+
+.box {
+  float: center;
+  border: 1px solid #323334;
+  background-color: #323334;
+  padding: 100px;
+  width: 500px;
+  position: fixed; top: 150px;
+  position: fixed; left: 325px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  border: 3px solid #000;
+  border-radius: 3px;
+  background-color: #323334;
+}
+
+.product > .level {
+  background-color: #ddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Helvetica;
+}
+
+.product > h2 {
+  margin-top: 15px;
+  color: #FFFFFF;
+  font-family: Helvetica;
+}
+
+.product > p {
+  margin: 15px 0;
+  color: #FFFFFF;
+  font-family: Helvetica;
+}
+
+.product > ul > li {
+  padding: 5px 0;
+  color: #FFFFFF;
+  float: center;
+  font-family: Helvetica;
+}
+
+
+.product > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #0027FF;
+  font-weight: 400;
+  font-family: Helvetica;
+}
+
+.product > button:hover {
+  background-color: #2C4CFF;
+  transition: background-color 1s;
+}
+
+@media (max-width: 800px) {
+  #pricing {
+    flex-direction: column;
+  }
+
+  .product {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+}
+
